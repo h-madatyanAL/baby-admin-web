@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+
+*::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 2.5px;
+}
+
+.page-container {
+  width: calc(100% - 206px);
+  margin-left: 206px;
+  background-color: #F3F6F8;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+  transform: scale(0.94);
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: scale(0.94);
+}
+
+.fade-enter-to {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-box {
+  padding: 40px 0 32px 0;
+
+  &__content {
+    padding-top: 50px;
+  }
+}
+
+.v-text-field {
+  .v-input__slot {
+    min-height: 40px !important;
+
+    .v-input__append-inner {
+      margin-top: 8px;
+
+      .v-icon {
+        font-size: 18px;
+      }
+    }
+
+    .v-input__prepend-inner {
+      margin-top: 8px;
+
+      .v-icon {
+        font-size: 18px;
+      }
+    }
+  }
+}
+td, th {
+  white-space: nowrap;
+}
+.dialog-lg {
+  .v-card {
+    height: 90vh !important;
+    overflow-y: auto;
+  }
+}
+
+.tabs {
+  .v-tabs-slider-wrapper {
+    height: 5px !important;
+
+    div {
+      border-radius: 5px !important;
+    }
+  }
+
+  .v-tabs-bar {
+    background-color: #F3F6F8 !important;
+  }
+
+  .v-tab {
+    font-size: 16px;
+    padding: 0 !important;
+    min-width: inherit !important;
+    margin-right: 55px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+}
+
+.custom-menu-style {
+  box-shadow: inherit !important;
+  border-radius: 0 !important;
+  padding: 29px 22px;
+  border: 1px solid $gray;
+  min-width: 275px !important;
+}
+
+.v-btn {
+  box-shadow: none !important;
+}
+.chart-labels {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: flex-end;
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    div:first-child {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+    div:last-child {
+      color: $gray;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}

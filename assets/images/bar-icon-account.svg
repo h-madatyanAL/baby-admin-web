@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="15.001" viewBox="0 0 20 15.001">
+  <g id="menu_bar_icon_account_n" data-name="menu bar_icon_account_n" transform="translate(0 -63.935)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="4.17" cy="4.17" r="4.17" transform="translate(3.323 63.935)" fill="#5ea7e8"/>
+    <path id="Path_10" data-name="Path 10" d="M14.981,283.976a7.443,7.443,0,0,0-2.468-5.558.94.94,0,0,0-1.24-.021,5.813,5.813,0,0,1-7.558,0,.939.939,0,0,0-1.239.019A7.475,7.475,0,0,0,0,283.972a.824.824,0,0,0,.821.825H14.16A.821.821,0,0,0,14.981,283.976Z" transform="translate(0 -205.862)" fill="#5ea7e8"/>
+    <path id="Path_11" data-name="Path 11" d="M417.7,311.795a4.115,4.115,0,0,1-1.573.8.821.821,0,0,0-.586,1.019,9.031,9.031,0,0,1,.346,2.493.821.821,0,0,0,.821.821h1.727a.821.821,0,0,0,.821-.821c0-2.558.08-3.056-.27-3.975A.819.819,0,0,0,417.7,311.795Z" transform="translate(-399.26 -237.988)" fill="#5ea7e8"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="2.502" cy="2.502" r="2.502" transform="translate(13.332 68.105)" fill="#5ea7e8"/>
+  </g>
+</svg>
